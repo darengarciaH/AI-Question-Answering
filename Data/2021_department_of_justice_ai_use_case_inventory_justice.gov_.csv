@@ -1,0 +1,51 @@
+﻿"1A.
+AI use case name",Drug Signature Program Algorithms,Complaint Lead Value Probability,Intelligent Records Consolidation Tool,Privileged Material Identification
+"1B.
+Agency with AI use case",Department of Justice,Department of Justice,Department of Justice,Department of Justice
+"Note Field:
+List other Agencies if use case was co-developed",N/A,N/A,N/A,N/A
+"1C.
+Office with AI Use Case",Drug Enforcement Administration,Federal Bureau of Investigation,Justice Management Division,Tax Division
+"2A.
+Last Name, First Name","Bourque, Monique","Bourque, Monique","Bourque, Monique","Bourque, Monique"
+"2B.
+Email Address",monique.bourque@usdoj.gov,monique.bourque@usdoj.gov,monique.bourque@usdoj.gov,monique.bourque@usdoj.gov
+"2C.
+Additional point of contact name and email address",,,,
+Provide a short summary (200 words max) of what the AI does. Include a high-level description of system inputs and outputs.,DEA's Special Testing and Research Laboratory utilizes AI/ML techniques and has developed a robust statistical methodology including multi-variate statistical analysis tools to automatically classify the geographical region of origin of samples selected for DEA's Heroin and Cocaine signature programs. The system provides for detection of anomalies and low confidence results.,"Threat Intake Processing System (TIPS) database uses artificial intelligence (AI) algorithms to accurately identify, prioritize, and process actionable tips in a timely manner. The AI used in this case helps to triage immediate threats in order to help FBI field offices and law enforcement respond to the most serious threats first.  Based on the algorithm score, highest priority tips are first in the queue for human review.","The Office of Records Management Policy uses an AI and Natural Language Processing (NLP) tool to assess the similarity of records schedules across all Department records schedules. The tool provides clusters of similar items to significantly reduce the time that the Records Manager spends manually reviewing schedules for possible consolidation. An AI powered dashboard provides recommendations for schedule consolidation and review, while also providing the Records Manager with the ability to review by cluster or by individual record. The solution's technical approach has applicability with other domains that require text similarity analysis.",The application scans documents and looks for attorney/client privileged information. It does this based on keyword input by the system operator.
+"4A.
+What stage of production is the AI in?",In production: more than 1 year,In production: more than 1 year,In production: more than 1 year,In production: less than 6 months
+"4B.
+Additional comments related to lifecycle stage.","DEA Special Testing and Research Laboratory update AI/ML approach as needed - trends, new authentics, new
+drug signatures",None,"Savan Group's technical solution has been applied in multiple information management domains for the last three
+years.",The system is being tested on production case data in a very limited pilot.
+What specific AI techniques were used?,Machine learning using authentic drug samples/data and validation rules.,n/a,"1. Topic Modeling
+2. Word Embedding
+3. Optimal Transport
+4. Clustering",
+"6A.
+Did/does the agency train this AI use case?",Yes,Yes,No,No
+"6B.
+If yes - Where did/does the training data originate?",Agency Generated,Agency Generated,,
+"6C.
+Is the training data, the validation data, and/or test data included in the enterprise data inventory?",No,Yes,No,No
+"6D.
+If data is publicly available, provide link.",data not available publicly but 1-2 unclassified summary reports for each program are released publicly each year,,"The solution makes use of glove-wiki- gigaword-50 pre-trained model, which is publicly available.",
+"7A.
+Does the agency have access to the code associate with this AI use case?","yes, only Special Testing Lab at DEA",,No,No
+"7B.
+If yes, is the code included in the agency source code inventory (e.g. Code.gov)?",No,,,
+"7C.
+If the source code is publicly available, provide the link.",,,"The LDA portion of the code and glove-wiki- gigaword-50 pre-trained model is publicly available.
+LDA: https://scikit- learn.org/0.16/modules/generated/sklearn.l da.LDA.html
+Pre-trained Model:
+https://radimrehurek.com/gensim/auto_ex amples/howtos/run_downloader_api.html",
+"7D.
+Is the agency able to conduct ongoing testing on the code?",Yes,Yes,No,No
+"7E.
+Is the agency able to monitor and/or audit performance?",Yes,Yes,No,Yes
+Provide the name of the Information System (e.g. FISMA system name) associated with the AI use case.,,,The Justice Records Control Schedule (JRCS) contains the source data that was used by solution.,TAX Office Automation System (OAS)
+"9A.
+Should this use case be withheld from the public inventory? If yes, the use case will only be shared in the internal government inventory.",No,No,No,No
+"9B.
+If the answer to 9A is yes, provide an explanation (this explanation will be included in the internal government inventory).",Not Applicable,Not Applicable,Not Applicable,Not Applicable
